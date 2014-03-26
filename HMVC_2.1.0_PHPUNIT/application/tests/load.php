@@ -163,16 +163,9 @@
  *  Instantiate the routing class and set the routing
  * ------------------------------------------------------
  */
-	/* Added: Shashi 2/23/2014 */
-	$RTR =& load_class('Router', 'core');	
-	//$GLOBALS['RTR'] =& $RTR;
-	/* $RTR->_set_routing();
 
-	// Set any routing overrides that may exist in the main index file
-	if (isset($routing))
-	{
-		$RTR->_set_overrides($routing);
-	} */
+	$RTR =& load_class('Router', 'core');	
+
 
 
 
